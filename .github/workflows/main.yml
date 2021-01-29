@@ -14,6 +14,6 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        ftp-server: ftp.nuruzzamanhimel.xyz
-        ftp-username: demoaccount@inventory.nuruzzamanhimel.xyz
+        ftp-server: ftp://51.79.185.161
+        ftp-username: demoaccount
         ftp-password: ${{ secrets.ftp_password }}
